@@ -1,0 +1,215 @@
+.dashboard{
+    width: 100%;
+    padding: 4vh 4vw 4vh 4vw;
+    text-align: center;
+}
+
+.board_el{
+    min-width: 40vw;
+    min-height: 40vh;
+    max-height: 70vh;
+    background-color: #ffffff;
+    border: 0.3px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgb(92, 92, 92);
+    text-align: center;
+    padding: 1vh 2vw 0.5vh 2vw;
+    margin: 0 20px 10px 20px;
+
+    > h2{
+        font-size: 120%;
+        float: left;
+    }
+}
+
+.inp_stocks{
+    padding: 10px 10px 10px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 80%;
+    width: 20vw;
+
+}
+
+.board_el_mini{
+    min-width: 10vw;
+    min-height: 10vh;
+    background-color: #ffffff;
+    border: 0.3px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgb(92, 92, 92);
+    text-align: center;
+    padding: 1vh 2vw 1.5vh 2vw;
+    margin: 10px 20px 10px 20px;
+    font-size: 60%;
+
+    > h2{
+        font-size: 140%;
+        float: left;
+    }
+}
+
+.graf_st{
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    margin-top: 2vh;
+}
+
+.dashtable{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 160%;
+    padding: 1vh 1vw 1vh 1vw;
+
+    > h3{
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}
+
+.goselectbtn{
+    position: relative;
+    min-width: 60px;
+    min-height: 50px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    float: right;
+    margin-right: 0.9vw;
+    margin-bottom: 2vh;
+
+    &:hover{
+        background-color: #c2c2c2;
+        transition: 0.3s;
+    }
+}
+
+.selectbtn{
+    min-width: 60px;
+    min-height: 50px;
+    padding: 2px 10px 2px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px 10px 10px 2vw;
+    float: right;
+    font-size: 80%;
+
+    &:hover{
+        background-color: #c2c2c2;
+        transition: 0.3s;
+    }
+}
+
+.dateselector{
+    position: absolute;
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 0 10px 10px;
+    top:3vh;
+    right: 4vw;
+    z-index: 10;
+}
+
+.delbtn{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    padding: 1px 1px 1px 1px;
+    margin-top: 10px;
+    float: right;
+    text-align: center;
+    border: 1px solid black;
+
+    > p{
+        margin-top: -6px;
+        margin-bottom: auto;
+    }
+
+
+    &:hover{
+        background-color: rgb(245, 129, 129);
+        transition: 0.3s;
+    }
+}
+
+.tables{
+    display: inline;
+}
+
+.addgraph{
+    position: absolute;
+    right: 4vw;
+    top:49vh;
+    min-width: 25vw;
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px 15px 15px 15px;
+    z-index: 10;
+    float: right;
+    text-align: center;
+
+    >h1{
+        font-weight: 700;
+        font-size: 120%;
+    }
+
+
+    >label{
+        float: left;
+    }
+}
+
+.add_tbl{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    float: left;
+    text-align: left;
+
+}
+
+.add_stolb{
+    padding: 4px 10px 4px 10px;
+}
+
+.add_btn{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    float: right;
+
+    &:hover{
+        background-color: #c2c2c2;
+        transition: 0.3s;
+    }
+}
+
+.deletebtn{
+    padding: 10px 10px 10px 10px;
+    font-size: 80%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+
+    &:hover{
+        background-color: rgb(255, 149, 149);
+        transition: 0.4s;
+    }
+}
+
+.closebtn{
+    padding: 10px 10px 10px 10px;
+    font-size: 80%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20vh 10px 10px 10px;
+    float: right;
+
+    &:hover{
+        background-color: rgb(255, 149, 149);
+        transition: 0.4s;
+    }
+}

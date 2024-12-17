@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --text_clr: #313131;
+  --backgr_clr: #f2f2f2;
+  --header_clr: #f2f2f2;
+}
+
+body {
+  color: var(--text_clr);
+  background-color: var(--backgr_clr);
+  font-family: 'Rubik', sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

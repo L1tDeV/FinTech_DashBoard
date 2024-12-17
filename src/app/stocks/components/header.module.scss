@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+// #1e232d
+
+.navboard{
+    background-color: var(--header_clr);
+    width: 100%;
+    height: 10vh;
+    font-family: 'Rubik', sans-serif;
+    font-size: 200%;
+    padding: 2vh 2.5vw 2vh 2.5vw;
+    margin-bottom: -4vh;
+}
+
+.bank_wrd{
+    color: #5e52ff;
+}
+
+.main_wrd{
+    display: inline;
+}
+
+.navbar{
+    display: inline-block;
+    float: right;
+    font-size: 60%;
+    margin: 1.4vh 2vw 0 10vw;    
+}
+
+.nav_el{
+    display: inline;
+    width: 100px;
+    height: 100%;
+    margin-top: -5px;
+    cursor: pointer;
+
+    >p{
+        font-size: 80%;
+    }
+
+    >a{
+        margin-left: 5px;
+        margin-right: 5px;
+        &:hover{
+            color: #8ea4ff;
+            transition: 0.3s;
+        }
+    }
+
+    >button{
+        margin: 0 5px 0 5px;
+
+        &:hover{
+            background-color: #d4d4d4;
+            transition: 0.3s;
+        }
+    }
+}
+
+.form_btn{
+    padding: 5px 10px 5px 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.reg_form{
+    position: absolute;
+    text-align: center;
+    top: 8vh;
+    right: 36vw;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px 30px 15px 30px;
+    
+
+    >input{
+        width: 15vw;
+        height: 30px;
+        border: 1px solid black;
+        border-radius: 5px;
+        color: black;
+        font-size: 16px;
+        padding: 5px 5px 5px 5px;
+    }
+
+    >h2{
+        margin-bottom: -10px;
+    }
+}
+
+// .reg_inp{
+//         width: 15vw;
+//         height: 30px;
+//         border: 1px solid black;
+//         border-radius: 5px;
+//         color: black;
+//         font-size: 16px;
+//         padding: 5px 5px 5px 5px;
+// }
+
+.reg_btn{   
+    >button{
+        font-size: 50%;
+        padding: 10px 10px 10px 10px;
+        border: 1px solid black;
+        border-radius: 10px;
+
+        &:hover{
+            background-color: #dedede;
+            transition: 0.3s;
+        }
+    }
+}
+
+.exit_btn{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 100px;
+    float: right;
+
+    >p{
+        margin-top: -10px;
+    }
+
+    &:hover{
+        background-color: rgb(255, 155, 155);
+        transition: 0.3s;
+    }
+}
+
+.main_txt_reg{
+    margin: -10px auto -40px auto;
+}
